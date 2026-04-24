@@ -230,6 +230,25 @@ p { line-height: 1.75; color: var(--text-muted); }
   background-size: 56px 56px;
 }
 
+.hero-watermark {
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 560px;
+  height: 560px;
+  object-fit: contain;
+  opacity: 0.04;
+  animation: watermarkSpin 40s linear infinite;
+  pointer-events: none;
+  user-select: none;
+}
+
+@keyframes watermarkSpin {
+  from { transform: translateY(-50%) rotate(0deg); }
+  to   { transform: translateY(-50%) rotate(360deg); }
+}
+
 .hero-content {
   position: relative;
   z-index: 1;
