@@ -10,7 +10,10 @@
       "Bash(firecrawl map *)",
       "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(u\\) for u in d.get\\('links',d.get\\('urls',d if isinstance\\(d,list\\) else []\\)\\)]\")",
       "Bash(firecrawl scrape *)",
-      "Bash(wait)"
+      "Bash(wait)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(python scripts/generate_areas.py)"
     ]
   }
 }
