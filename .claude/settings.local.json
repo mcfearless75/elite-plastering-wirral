@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.eliteplasteringwirral.com)",
+      "Read(//c/Users/LAPTOP80/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python scripts/search.py \"plastering joinery trades professional UK service bold\" --design-system -p \"Elite Plastering Wirral\" -f markdown)",
+      "Bash(npx -y firecrawl-cli@latest init --all -k fc-1c239bc17dc5484f8229547a0a3608ee)",
+      "Bash(firecrawl --status)",
+      "Bash(mkdir -p .firecrawl)",
+      "Bash(firecrawl map *)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(u\\) for u in d.get\\('links',d.get\\('urls',d if isinstance\\(d,list\\) else []\\)\\)]\")",
+      "Bash(firecrawl scrape *)",
+      "Bash(wait)"
+    ]
+  }
+}
