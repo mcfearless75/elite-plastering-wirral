@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mcfearless75.github.io/elite-plastering-wirral/sitemap.xml
